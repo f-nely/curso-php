@@ -20,8 +20,8 @@ require_once 'vendor/autoload.php';
 </head>
 <body>
   <div class="container">
-    <h1>Insira um carro:</h1>
-    <form id="create-form" action="index.php" method="POST">
+    <h1 id="main-title">Insira um carro:</h1>
+    <form action="process.php" method="POST">
       <div class="form-group">
           <label for="brand">Marca do carro:</label>
           <input type="text" class="form-control" name="brand" placeholder="Insira a marca do carro" required>
