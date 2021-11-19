@@ -1,0 +1,20 @@
+
+{
+  "name": "hdc/curso-php",
+  "description": "Curso de PHP do Hora de Codar",
+  "authors": [
+      {
+          "name": "nely de faria",
+          "email": "nelly.nf54@gmail.com"
+      }
+  ],
+  "require": {},
+  "autoload": {
+      "files": [
+          "src/hdc/Models/db.php"
+      ],
+      "psr-4": {
+          "HDC\\": "src/hdc/"
+      }
+  }
+}
