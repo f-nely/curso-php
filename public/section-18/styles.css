@@ -12,5 +12,13 @@ h2 {
   font-size: 50px;
 }
 
-/* Este é um comentário */
+/* Classes e IDs */
+.p_texto {
+  color: #ad63df;
+}
+
+#titulo_app {
+  color: #e7c944;
+}
+
 
