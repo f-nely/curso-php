@@ -21,4 +21,15 @@ h2 {
   color: #e7c944;
 }
 
+/* Cores */
+.nome {
+  color: orange;
+}
 
+.hexa {
+  color: #6a40c4;
+}
+
+.rgba {
+  color: rgba(17, 197, 214, 1);
+}
