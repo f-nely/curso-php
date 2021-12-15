@@ -63,3 +63,40 @@ h2 {
   border: 1px solid #69db7c;
   color: #69db7c;
 }
+
+/* Fontes */
+.family {
+  color: #000;
+}
+
+.family.serif {
+  color: #57945c;
+}
+
+.serif {
+  font-family: "Times New Roman";
+}
+
+.sans-serif {
+  font-family: Arial;
+}
+
+.monospace {
+  font-family: "Courier New";
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.variant {
+  font-variant: small-caps;
+}
