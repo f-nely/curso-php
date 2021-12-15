@@ -33,3 +33,18 @@ h2 {
 .rgba {
   color: rgba(17, 197, 214, 1);
 }
+
+
+/* Backgrounds */
+.div-background {
+  background-image: url('img/bronnimann-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.div-background h1 {
+  text-align: center;
+  background-color: #e2dbd3;
+  color: #fff;
+}
