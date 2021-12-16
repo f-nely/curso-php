@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 h1 {
   color: #008080;
 }
@@ -101,10 +105,23 @@ h2 {
   font-variant: small-caps;
 }
 
-/* Box model */
+/* boxmodel-bordas */
 .boxmodel-borda {
   width: 100px;
-  padding: 100px;
+  height: 100px;
   background-color: #008080;
   border: 1px dashed #000;
+}
+
+/* boxmodel-padding */
+.boxmodel-padding {
+  width: 200px;
+  height: 200px;
+  background-color: #92B6D5;
+  padding: 20px;
+}
+
+.paragrafo-box {
+  color: #000;
+  margin: 0;
 }
