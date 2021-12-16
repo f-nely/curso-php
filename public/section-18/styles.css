@@ -100,3 +100,11 @@ h2 {
 .variant {
   font-variant: small-caps;
 }
+
+/* Box model */
+.boxmodel-borda {
+  width: 100px;
+  padding: 100px;
+  background-color: #008080;
+  border: 1px dashed #000;
+}
