@@ -140,3 +140,19 @@ h2 {
   color: #B05B58;
   margin-top: 25px;
 }
+
+/* Display */
+.display {
+  width: 200px;
+  height: 200px;
+  background-color: #15797A;
+  padding: 20px;
+  text-align: center;
+  margin: 40px;
+  display: inline-block;
+}
+
+.display .paragrafo-box {
+  color: #B3A92B;
+  margin-top: 25px;
+}
