@@ -125,3 +125,18 @@ h2 {
   color: #000;
   margin: 0;
 }
+
+/* boxmodel-margin */
+.boxmodel-margin {
+  width: 200px;
+  height: 200px;
+  background-color: #58B059;
+  padding: 20px;
+  text-align: center;
+  margin: 40px;
+}
+
+.boxmodel-margin .paragrafo-box {
+  color: #B05B58;
+  margin-top: 25px;
+}
