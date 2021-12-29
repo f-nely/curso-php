@@ -168,3 +168,10 @@ h2 {
 .static {
   position: static; /* posição padrão */
 }
+
+.relative {
+  background-color: rgb(200, 150, 30);
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
