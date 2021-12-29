@@ -189,3 +189,11 @@ h2 {
   top: 50px;
   left: 100px;
 }
+
+.fixed {
+  background-color: rgb(110, 90, 210);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 200px;
+}
