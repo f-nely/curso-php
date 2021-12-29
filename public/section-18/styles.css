@@ -236,3 +236,42 @@ h2 {
   clear: both;
 }
 
+/* unidades de medida */
+.content {
+  margin: 5px 20px;
+}
+
+.content p {
+  color: rgb(200, 188, 90);
+}
+
+.pixel-1 {
+  background-color: rgb(100, 255, 205);
+  width: 100px;
+  height: 100px;
+}
+
+.pixel-2 {
+  background-color: rgb(50, 125, 205);
+  width: 50px;
+  height: 50px;
+}
+
+.porcentagem {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(56, 129, 72);
+}
+
+.porcentagem-1 {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(119, 43, 78);
+}
+
+.porcentagem-2 {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(190, 255, 150);
+}
+
