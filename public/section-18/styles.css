@@ -285,3 +285,12 @@ h2 {
   background-color: rgb(60, 220, 120);
 }
 
+.rem-1 {
+  width: 1rem;
+  height: 1rem;
+  background-color: rgb(200, 200, 200);
+}
+
+.rem-2 {
+  font-size: 2rem;
+}
