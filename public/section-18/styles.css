@@ -1,5 +1,10 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
 }
 
 h1 {
@@ -203,3 +208,31 @@ h2 {
   position: sticky;
   top: 50px;
 }
+
+/* float */
+.container {
+  padding: 50px;
+}
+
+.div-float {
+  overflow: auto;
+}
+
+.img-float {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.p-float {
+  color: #000;
+}
+
+.clear {
+  clear: both;
+}
+
