@@ -175,3 +175,17 @@ h2 {
   top: 100px;
   left: 50px;
 }
+
+.absolute {
+  background-color: rgb(185, 200, 98);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mini-div {
+  height: 50px;
+  width: 50px;
+  top: 50px;
+  left: 100px;
+}
