@@ -5,3 +5,57 @@
     margin: 0;
     padding: 0;
 }
+
+/* Containers */
+#main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#address-container, #form-container {
+    flex: 1 1 0;
+    height: 100%;
+    text-align: left;
+}
+
+/* Address Container */
+#address-container {
+    background-image: url('../img/project_bg.jpg');
+    background-position-x: -130px;
+    background-size: cover;
+    color: #FFF;
+    position: relative;
+}
+
+.fade {
+    background: #000;
+    height: 100%;
+    opacity: .7;
+    width: 100%;
+}
+
+#address-content {
+    position: absolute;
+    left: 35%;
+    top: 25vh;
+    width: 300px;
+}
+
+#address-content h2 {
+    color: #00AD5E;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 40px;
+}
+
+#address-content ion-icon {
+   position: absolute;
+   left: 0;
+   top: 2px;
+}
+
+#address-content p {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
